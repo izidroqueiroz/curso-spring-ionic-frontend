@@ -12,4 +12,8 @@ export class HomePage {
 
   }
 
+  public login() {
+    this.navCtrl.setRoot("CategoriasPage");
+  }
+
 }
