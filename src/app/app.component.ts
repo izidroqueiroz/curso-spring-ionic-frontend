@@ -44,7 +44,6 @@ export class MyApp {
 
     switch (page.title) {
       case 'Logout':
-        console.log('Logout');
         this.auth.logout();
         this.nav.setRoot('HomePage');
         break;
